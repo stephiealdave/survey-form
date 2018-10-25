@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: linear-gradient(#ffcccc, #ccf2ff);
+	background-color: #ffcccc;
+}
+
+#main-container {
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 30px 50px;
+	background-color: #fff;
+}
+
+#title, #description {
+	text-align: center;
+}
+
+#description {
+	margin: -10px 0 30px 0;
+}
+
+#upper-info {
+	display: grid;
+	grid-template-columns: 0.5fr 4fr;
+}
+
+#name-label, #email-label, #number-label, #location-label {
+	padding: 15px 15px 0 5px;
+}
+
+input[type=text], input[type=email]{
+	width: 40%;
+	height: 40px;
+	margin-top: 5px;
+}
+
+input[type=number] {
+	width: 15%;
+	height: 40px;
+	margin-top: 5px;
+}
+
+#dropdown {
+	width: 30%;
+	height: 40px;
+	margin-top: 5px;
+}
+
+textarea {
+	width: 100%;
+	height: auto;
+	resize: none;
+}
+
+input[type=submit] {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	width: 125px;
+	height: 40px;
+}
